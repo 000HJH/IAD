@@ -49,6 +49,22 @@ The following resources are also available from the related repository: [LINK](h
 - MAD-man: [LINK](https://drive.google.com/file/d/1HJmw7hSmrS0NMxfAjDltF4cXlN5S96Iz/view?usp=sharing/)
 
 ---
+## Usage
+
+### Environment
+The code was developed and tested in the following environment.
+
+- OS: Ubuntu 18.04
+- Python: 3.9.12
+- PyTorch: 2.0.0+cu117
+- CUDA: 11.7
+- cuDNN: 8.5
+- GPU: NVIDIA RTX A6000
+
+### Docker Hub
+Containers for implemetation: [LINK](https://hub.docker.com/repository/docker/hongjiho/iad/general)
+
+---
 
 ## Note
 
