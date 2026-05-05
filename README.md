@@ -15,15 +15,38 @@ Please organize the datasets as follows:
 ```text
 datasets/
 ├── mvtec/
+│   ├── bottle/
+│   ├── cable/
+│   ├── capsule/
+│   ├── carpet/
+│   ├── grid/
+│   ├── hazelnut/
+│   ├── leather/
+│   ├── metal_nut/
+│   ├── pill/
+│   ├── screw/
+│   ├── tile/
+│   ├── toothbrush/
+│   ├── transistor/
+│   ├── wood/
+│   ├── zipper/
+│   └── foreground_mask/
 ├── btad/
+│   ├── 01/
+│   ├── 02/
+│   ├── 03/
+│   └── foreground_mask/
 ├── visa/
+│   ├── candle/
+│   ├── capsules/
+│   ├── ...
+│   └── foreground_mask/
 ├── dtd/
 └── mad_man/
 ```
 
 ### Benchmark Datasets
-
-- MVTec-AD: [LINK]([https://drive.google.com/file/d/1e4A4cGJkCYD4KCD0GHutSleaJqHM5fNb/view?usp=drive_link](https://www.mvtec.com/company/research/datasets/mvtec-ad/))
+- MVTec-AD: [LINK](https://drive.google.com/file/d/1e4A4cGJkCYD4KCD0GHutSleaJqHM5fNb/view?usp=drive_link)
 - BTAD: [LINK]([https://drive.google.com/file/d/1MXRqcY0yfbsOY59ZJ4p4rlmmDo4qS6dK/view?usp=drive_link](http://avires.dimi.uniud.it/papers/btad/btad.zip))
 - VisA: [LINK]([https://drive.google.com/file/d/10r1moi4LW1DrlujY-1-aVYjVRcFJUSO_/view?usp=drive_link](https://github.com/amazon-science/spot-diff))
 
