@@ -1,0 +1,36 @@
+# config.yaml
+
+path:
+  data_path: ../datasets/btad/
+  anomaly_source_path: ../datasets/dtd/images/
+  checkpoint_path: ./checkpoints
+  # log_path: ./_logs/
+
+params:
+  bs: 8
+  lr: 0.0001
+  lr_occ: 0.0001
+  total_steps: 5000
+  lower_bound: 60
+  upper_bound: 90
+  minimum_area: 70
+  maximum_area: 3000 #1500
+  minimum_components: 1
+  maximum_components: 5
+  
+  cls_total_steps: 
+    '01': 5000
+    '02': 5000
+    '03': 5000
+  beta: 
+    '01': 0.8
+    '02': 0.8
+    '03': 0.8
+  base_beta: 
+    '01': 0.0
+    '02': 0.0
+    '03': 0.0
+fg:
+  '01': True
+  '02': False
+  '03': True

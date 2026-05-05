@@ -1,0 +1,104 @@
+# config.yaml
+
+path:
+  data_path: ../datasets/mvtec/
+  anomaly_source_path: ../datasets/dtd/images/
+  checkpoint_path: ./checkpoints
+  # log_path: ./_logs/
+
+params:
+  bs: 8
+  lr: 0.0001
+  lr_occ: 0.0001
+  total_steps: 5000
+  lower_bound: 60
+  upper_bound: 85
+  minimum_area: 70
+  maximum_area: 1500 #3000 02.13.
+  
+  cls_total_steps: 
+    bottle: 7000
+    cable: 3500
+    capsule: 7000
+    carpet: 5000
+    grid: 7000
+    hazelnut: 7000
+    leather: 7000
+    metal_nut: 3500
+    pill: 3500
+    screw: 7000
+    tile: 5000
+    toothbrush: 2500 # too many epochs when set to 5000 steps
+    transistor: 5000
+    wood: 3500
+    zipper: 7000
+
+  beta:  #03/31
+    bottle: 0.8
+    cable: 0.5
+    capsule: 0.8
+    carpet: 0.5
+    grid: 0.8
+    hazelnut: 0.5 #.8
+    leather: 0.8
+    metal_nut: 0.8
+    pill: 0.8
+    screw: 0.8
+    tile: 0.8
+    toothbrush: 0.5
+    transistor: 0.8
+    wood: 0.8
+    zipper: 0.8
+  base_beta: 
+    bottle: 0.0
+    cable: 0.0
+    capsule: 0.0
+    carpet: 0.0
+    grid: 0.0
+    hazelnut: 0.0 #.8
+    leather: 0.0
+    metal_nut: 0.0
+    pill: 0.0
+    screw: 0.0
+    tile: 0.0
+    toothbrush: 0.0
+    transistor: 0.0
+    wood: 0.0
+    zipper: 0.0
+
+  # beta: 
+  #   bottle: 0.8
+  #   cable: 0.5
+  #   capsule: 0.5
+  #   carpet: 0.5
+  #   grid: 0.8
+  #   hazelnut: 0.5 #.8
+  #   leather: 0.8
+  #   metal_nut: 0.4
+  #   pill: 0.8
+  #   screw: 0.8
+  #   tile: 0.8
+  #   toothbrush: 0.5
+  #   transistor: 0.8
+  #   wood: 0.8
+  #   zipper: 0.8
+  # base_beta: 
+  #   bottle: 0.0
+  #   cable: 0.0
+  #   capsule: 0.4
+  #   carpet: 0.0
+  #   grid: 0.0
+  #   hazelnut: 0.0 #.8
+  #   leather: 0.0
+  #   metal_nut: 0.4 #02.11 수정
+  #   pill: 0.0
+  #   screw: 0.0
+  #   tile: 0.0
+  #   toothbrush: 0.0
+  #   transistor: 0.0
+  #   wood: 0.0
+  #   zipper: 0.0
+
+
+
+

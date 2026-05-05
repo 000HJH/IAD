@@ -1,0 +1,102 @@
+# config.yaml
+
+path:
+  data_path: ../datasets/visa/
+  anomaly_source_path: ../datasets/dtd/images/
+  checkpoint_path: ./checkpoints
+  # log_path: ./_logs/
+
+params:
+  bs: 8
+  lr: 0.0001
+  lr_occ: 0.001
+  # total_steps: 5000
+  lower_bound: 50 
+  upper_bound: 85
+  minimum_area: 50 #40 (02.02 변경)
+  maximum_area: 1500 #3000 (02.02 변경)
+  minimum_components: 1
+  maximum_components: 5
+  
+  cls_total_steps: 
+    candle: 7000
+    capsules: 7000
+    cashew: 3500 #450개 샘플
+    fryum: 3500 #450
+    chewinggum: 3500 #453
+    macaroni1: 7000
+    macaroni2: 7000
+    pcb1: 7000 #5000
+    pcb2: 7000
+    pcb3: 7000
+    pcb4: 7000
+    pipe_fryum: 3500 #450
+
+  beta: 
+    candle: 0.4
+    capsules: 0.5
+    cashew: 0.5
+    fryum: 0.5 
+    chewinggum: 0.4
+    macaroni1: 0.8
+    macaroni2: 0.8 
+    pcb1: 0.5
+    pcb2: 0.8
+    pcb3: 0.5
+    pcb4: 0.5
+    pipe_fryum: 0.5
+  base_beta: 
+    candle: 0.4
+    capsules: 0.0
+    cashew: 0.0
+    fryum: 0.0
+    chewinggum: 0.0
+    macaroni1: 0.0
+    macaroni2: 0.0
+    pcb1: 0.0
+    pcb2: 0.0
+    pcb3: 0.0
+    pcb4: 0.0
+    pipe_fryum: 0.0
+
+  # beta: 
+  #   candle: 0.4 #0.8
+  #   capsules: 0.6
+  #   cashew: 0.8 #0.4 + 0.4.
+  #   fryum: 0.8 #0.6
+  #   chewinggum: 0.4
+  #   macaroni1: 0.8
+  #   macaroni2: 0.4 #0.8
+  #   pcb1: 0.8 #0.2 -> (03.20 변경)
+  #   pcb2: 0.2
+  #   pcb3: 0.4
+  #   pcb4: 0.2
+  #   pipe_fryum: 0.8
+
+  # base_beta: 
+  #   candle: 0.4
+  #   capsules: 0.0
+  #   cashew: 0.0
+  #   fryum: 0.0
+  #   chewinggum: 0.0
+  #   macaroni1: 0.4
+  #   macaroni2: 0.4
+  #   pcb1: 0.0
+  #   pcb2: 0.0
+  #   pcb3: 0.0
+  #   pcb4: 0.0
+  #   pipe_fryum: 0.0
+
+fg:
+  candle: True
+  capsules: False
+  cashew: True #False 03.16 -> FG 파일 이용
+  fryum: True
+  chewinggum: True
+  macaroni1: True
+  macaroni2: True
+  pcb1: True
+  pcb2: True
+  pcb3: True
+  pcb4: True
+  pipe_fryum: True
