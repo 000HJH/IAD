@@ -1,0 +1,17 @@
+{
+    "01": {
+        "use_mask"     : true,
+        "bg_threshold" : 30,
+        "bg_reverse"   : true
+    },
+    "02": {
+        "use_mask"     : false,
+        "bg_threshold" : null,
+        "bg_reverse"   : null
+    },
+    "03": {
+        "use_mask"     : true,
+        "bg_threshold" : 30,
+        "bg_reverse"   : true
+    }
+}

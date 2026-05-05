@@ -1,0 +1,62 @@
+{
+    "candle": {
+        "use_mask"     : true,
+        "bg_threshold" : 100,
+        "bg_reverse"   : true
+    },
+    "capsules": {
+        "use_mask"     : false,
+        "bg_threshold" : null,
+        "bg_reverse"   : null
+    },
+    "cashew": {
+        "use_mask"     : true,
+        "bg_threshold" : 150,
+        "bg_reverse"   : true
+    },
+    "chewinggum": {
+        "use_mask"     : true,
+        "bg_threshold" : 130,
+        "bg_reverse"   : true
+    },
+    "fryum": {
+        "use_mask"     : true,
+        "bg_threshold" : 150,
+        "bg_reverse"   : true
+    },
+    "macaroni1": {
+        "use_mask"     : true,
+        "bg_threshold" : 110,
+        "bg_reverse"   : true
+    },
+    "macaroni2": {
+        "use_mask"     : true,
+        "bg_threshold" : 140,
+        "bg_reverse"   : true
+    },
+    "pcb1": {
+        "use_mask"     : false,
+        "bg_threshold" : null,
+        "bg_reverse"   : null
+    },
+    "pcb2": {
+        "use_mask"     : false,
+        "bg_threshold" : null,
+        "bg_reverse"   : null
+    },
+    "pcb3": {
+        "use_mask"     : false,
+        "bg_threshold" : null,
+        "bg_reverse"   : null
+    },
+    "pcb4": {
+        "use_mask"     : false,
+        "bg_threshold" : null,
+        "bg_reverse"   : null
+    },
+    "pipe_fryum": {
+        "use_mask"     : true,
+        "bg_threshold" : 100,
+        "bg_reverse"   : true
+    }
+}

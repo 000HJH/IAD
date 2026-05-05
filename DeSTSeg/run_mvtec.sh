@@ -1,0 +1,9 @@
+# python ft_train_st_seg.py --gpu_id 3 --num_workers 8 --steps 100 --de_st_steps 100 --eval_per_steps 100  --lr_res 0.1 --lr_seghead 0.01 --lr_de_st 0.04 --bs 16 --perlin_ratio 0.0002 --date destseg_mvtec_100s_lr04 --seed 0
+# python ft_train_st_seg.py --gpu_id 3 --num_workers 8 --steps 200 --de_st_steps 200 --eval_per_steps 200  --lr_res 0.1 --lr_seghead 0.01 --lr_de_st 0.04 --bs 16 --perlin_ratio 0.0002 --date destseg_mvtec_200s_lr04 --seed 0
+# python ft_train_st_seg.py --gpu_id 3 --num_workers 8 --steps 400 --de_st_steps 400 --eval_per_steps 400  --lr_res 0.1 --lr_seghead 0.01 --lr_de_st 0.04 --bs 16 --perlin_ratio 0.0002 --date destseg_mvtec_400s_lr04 --seed 0
+# python ft_train_st_seg.py --gpu_id 3 --num_workers 8 --steps 400 --de_st_steps 400 --eval_per_steps 400  --lr_res 0.1 --lr_seghead 0.01 --lr_de_st 0.1 --bs 16 --perlin_ratio 0.0002 --date destseg_mvtec_400s_lr1 --seed 0
+# python ft_train_st_seg.py --gpu_id 3 --num_workers 8 --steps 400 --de_st_steps 200 --eval_per_steps 400  --lr_res 0.1 --lr_seghead 0.01 --lr_de_st 0.04 --bs 16 --perlin_ratio 0.0002 --date destseg_mvtec_200s_200s_lr1_01_04 --seed 0
+# python ft_train_st_seg.py --gpu_id 3 --num_workers 8 --steps 400 --de_st_steps 200 --eval_per_steps 400  --lr_res 0.01 --lr_seghead 0.001 --lr_de_st 0.04 --bs 16 --perlin_ratio 0.0002 --date destseg_mvtec_200s_200s_lr01_001_04 --seed 0
+# python ft_train_st_seg.py --gpu_id 3 --num_workers 8 --steps 600 --de_st_steps 200 --eval_per_steps 600  --lr_res 0.01 --lr_seghead 0.001 --lr_de_st 0.04 --bs 16 --perlin_ratio 0.0002 --date destseg_mvtec_200s_400s_lr01_001_04 --seed 0
+
+# python ft_train_st_seg.py --gpu_id 3 --num_workers 8 --steps 400 --de_st_steps 400 --eval_per_steps 400  --lr_res 0.1 --lr_seghead 0.01 --lr_de_st 0.04 --bs 16 --perlin_ratio 0.0002 --date destseg_mvtec_lr04_400s_sd1 --seed 1
