@@ -59,7 +59,7 @@ The code was developed and tested in the following environment.
 - PyTorch: 2.0.0+cu117
 - CUDA: 11.7
 - cuDNN: 8.5
-- GPU: NVIDIA RTX A6000
+- GPU: NVIDIA GeForce RTX 3090
 
 ### Docker Hub
 Containers for implemetation: [LINK](https://hub.docker.com/repository/docker/hongjiho/iad/general)
